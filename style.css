@@ -2,6 +2,9 @@
     border: 5px solid black;
     border-radius: 15px;
     padding: 5px;
+    
+        max-height: 48px;
+    
 }
 #litenlåda{ 
     img{
@@ -28,4 +31,6 @@
     font-family: "Mountains of christmas";
     font-size: large;
 }
-#storruta{}
+#storruta{
+    border:5px solid #D6001C;
+}
