@@ -1,6 +1,7 @@
 .länk{
     border: 5px solid black;
     border-radius: 15px;
+    padding: 5px;
 }
 #litenlåda{ 
     img{
@@ -9,8 +10,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border:5px solid red;
+    border:5px solid #D6001C ;
     border-radius: 15px;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+#storlåda{
+    background-image: url(./img/snow_winter_trees.jpg);
+    border: 5px solid #D6001C;
+    padding-bottom: 250px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-size: contain;
+    text-align: center;
+    font-family: "Mountains of christmas";
+    font-size: large;
+}
+#storruta{}
