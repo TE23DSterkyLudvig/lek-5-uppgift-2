@@ -2,9 +2,6 @@
     border: 5px solid black;
     border-radius: 15px;
     padding: 5px;
-    
-        max-height: 48px;
-    
 }
 #litenlåda{ 
     img{
@@ -33,4 +30,21 @@
 }
 #storruta{
     border:5px solid #D6001C;
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#MDN{
+    max-height: 24px;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding:5px;
+}
+.inneruta{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #D6001C;
+    border-radius: 5px;
+    margin: 5px;
 }
